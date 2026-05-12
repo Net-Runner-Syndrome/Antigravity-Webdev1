@@ -8,17 +8,17 @@ const timelineData = [
   {
     days: 'Days 1–3',
     city: 'Osaka',
-    photos: ['/images/osaka-castle.jpg', '/images/osaka-skyline.jpg'],
+    photos: ['./images/osaka-castle.jpg', './images/osaka-skyline.jpg'],
   },
   {
     days: 'Days 4–6',
     city: 'Kyoto',
-    photos: ['/images/kyoto-pagoda.jpg', '/images/kyoto-shrine.jpg'],
+    photos: ['./images/kyoto-pagoda.jpg', './images/kyoto-shrine.jpg'],
   },
   {
     days: 'Days 7–10',
     city: 'Tokyo',
-    photos: ['/images/tokyo-shibuya.jpg', '/images/tokyo-street.jpg'],
+    photos: ['./images/tokyo-shibuya.jpg', './images/tokyo-street.jpg'],
   },
 ];
 

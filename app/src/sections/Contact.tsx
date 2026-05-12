@@ -78,7 +78,7 @@ export default function Contact() {
         }}
       >
         <img
-          src="/images/contact-cherry-blossoms.jpg"
+          src="./images/contact-cherry-blossoms.jpg"
           alt="Cherry blossoms with Mount Fuji"
           style={{
             width: '100%',

@@ -5,11 +5,11 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 const polaroids = [
-  { video: '/videos/polaroid-1.mp4', caption: '3 cities in Japan' },
-  { video: '/videos/polaroid-2.mp4', caption: '10 days' },
-  { video: '/videos/polaroid-3.mp4', caption: 'gigabytes of photos' },
-  { video: '/videos/polaroid-4.mp4', caption: 'eat ramen' },
-  { video: '/videos/polaroid-5.mp4', caption: 'enjoy the vibe' },
+  { video: './videos/polaroid-1.mp4', caption: '3 cities in Japan' },
+  { video: './videos/polaroid-2.mp4', caption: '10 days' },
+  { video: './videos/polaroid-3.mp4', caption: 'gigabytes of photos' },
+  { video: './videos/polaroid-4.mp4', caption: 'eat ramen' },
+  { video: './videos/polaroid-5.mp4', caption: 'enjoy the vibe' },
 ];
 
 export default function Hero() {
@@ -146,7 +146,7 @@ export default function Hero() {
         }}
       >
         <img
-          src="/images/hero-mountains.jpg"
+          src="./images/hero-mountains.jpg"
           alt="Japanese mountains at dawn"
           style={{
             width: '100%',
@@ -179,7 +179,7 @@ export default function Hero() {
         }}
       >
         <img
-          src="/images/hero-cherry-branch.png"
+          src="./images/hero-cherry-branch.png"
           alt="Cherry blossom branch"
           style={{
             height: '50vh',
@@ -201,7 +201,7 @@ export default function Hero() {
         }}
       >
         <img
-          src="/images/hero-figure.png"
+          src="./images/hero-figure.png"
           alt="Woman in floral kimono"
           style={{
             height: '70vh',
